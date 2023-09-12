@@ -1,0 +1,2 @@
+var btn = document.querySelector("button")
+var status = document.querySelector("h5")
