@@ -14,6 +14,5 @@ btn.addEventListener("click",function(){
     }else{
         istatus.innerHTML = "Stranger"
         istatus.style.color = "red"
-        flag = 0
     }
 })

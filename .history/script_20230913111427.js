@@ -9,11 +9,6 @@ btn.addEventListener("click",function(){
    setTimeout(function () {
     istatus.innerHTML = "Friends"
     istatus.style.color = "Green"
-   },3000)
-   flag=1
-    }else{
-        istatus.innerHTML = "Stranger"
-        istatus.style.color = "red"
-        flag = 0
+   })
     }
 })
