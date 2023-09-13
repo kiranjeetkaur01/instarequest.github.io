@@ -6,17 +6,15 @@ btn.addEventListener("click",function(){
     if(flag == 0){
     istatus.innerHTML = "Request Sending"
     istatus.style.color = "rgb(255,212,18)"
-    btn.innerHTML = "Remove Friend"
    setTimeout(function () {
     istatus.innerHTML = "Friends"
     istatus.style.color = "Green"
-   
+    btn
    },3000)
    flag=1
     }else{
         istatus.innerHTML = "Stranger"
         istatus.style.color = "red"
-        btn.innerHTML = "Add Friend"
         flag = 0
     }
 })

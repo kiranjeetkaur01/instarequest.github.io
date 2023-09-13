@@ -16,7 +16,6 @@ btn.addEventListener("click",function(){
     }else{
         istatus.innerHTML = "Stranger"
         istatus.style.color = "red"
-        btn.innerHTML = "Add Friend"
         flag = 0
     }
 })
